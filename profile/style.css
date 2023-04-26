@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(2, 93, 4);
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 30px;
+  border-radius: 80%;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 40%;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+a {
+  color: rgb(192, 202, 192);
+  text-decoration: dotted;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: rgb(99, 130, 99);
+  box-shadow: 20%;
+}
+
+.card {
+  /* text-align: center; */
+  background: rgb(82, 136, 82);
+  padding: 30px;
+  border: 1px solid rgb(109, 148, 109);
+}
+
+.card-white {
+  background: rgb(82, 136, 82);
+  padding: 30px;
+  border: 1px solid rgb(109, 148, 109);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px
+  }
+}
